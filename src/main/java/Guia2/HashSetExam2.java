@@ -42,7 +42,7 @@ public class HashSetExam2 {
         Hobbies.add("Jugar videojuegos");
         Hobbies.add("Resolver puzzles");
         Hobbies.add("Tomar siesta");
-        Hobbies.add("Escuchar musica")
+        Hobbies.add("Escuchar musica");
         
         Hobbies.add("Dibujar");
         Hobbies.add("Leer");
