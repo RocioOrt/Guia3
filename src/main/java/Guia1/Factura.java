@@ -11,9 +11,43 @@ package Guia1;
  */
 public class Factura {
     
-    String Numdepieza;
-    String descPieza;
-    int cantArticulo;
-    double precioArticulo;
+    private String Numdepieza;
+    private String descPieza;
+    private int cantArticulo;
+    private double precioArticulo;
+    
+    public void EstablecerNumdepieza ( String pNumdepieza)
+    {
+        Numdepieza = pNumdepieza;
+    }
+    public String ObtenerNumdepieza()
+    {
+        return Numdepieza;
+    }
+    public void establecerDescpieza ( String pDescpieza )
+    {
+        descPieza = pDescpieza;
+    }
+    public String obtenerDescpieza()
+    {
+        return descPieza;
+    }
+    public void establecerQtyarticulo ( int pQtyarticulo)
+    {
+        cantArticulo = pQtyarticulo;
+    }
+    public int obtenerQtyarticulo()
+    {
+        return cantArticulo;
+    }
+    public void establecerVlrarticulo (double pVlrarticulo)
+    {
+        precioArticulo  = pVlrarticulo;
+    }
+    public double obtenerVlrarticulo()
+    {
+        return precioArticulo;
+    }
+    
     
 }
